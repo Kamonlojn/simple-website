@@ -1,0 +1,191 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Tahoma;
+}
+
+nav {
+	position: fixed;
+	padding-top: 10px;
+	width: 100%;
+	z-index: 1;
+}
+
+ul.main-menu {
+	background-color: #EBEBEB;
+	padding: 0 30px;
+	border-radius: 25px;
+	list-style: none;
+	margin: 0 auto;
+	width: 690px;
+	box-shadow: 0 5px 20px #333;
+	transition: top 1s;
+}
+
+ul.main-menu li {
+	padding: 20px 30px;
+	display: inline-block;
+	border-left: 2px #CFCFCF solid;
+	border-right: 0px;
+	margin: 0;
+	text-align: center;
+}
+
+ul.main-menu li:hover {
+	background: #CCC;
+}
+
+ul.main-menu li:last-child {
+	border-right: 2px #CFCFCF solid;
+}
+
+.content {
+	display: block;
+	clear: both;
+	width: 970px;
+	margin: 0 auto;
+}
+
+.home {
+	position: relative;
+	height: 500px;
+	background-color: #10B0BE;
+	background-image: url("../images/cloud.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.my-rocket {
+	position: absolute;
+	margin: auto;
+	top:40px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 220px;
+	color: white;
+	padding-top: 70px;
+	text-align: center;
+}
+
+.about-me {
+	height: 400px;
+	background-color: #CAF9FF;
+	padding: 20px 0;
+}
+
+.about-content {
+	display: inline-block;
+	margin-left: 30px;
+	width: 50%;
+	vertical-align: top;
+}
+
+.about-content h1 {
+	font-size: 2.5em;
+	padding-bottom: 20px;
+}
+
+
+.write-me {
+	height: 500px;
+	background-color: #10B0BE;
+	padding: 20px 0;
+}
+
+.news-box {
+	background-color: #EBEBEB;
+	border-radius: 15px;
+	padding: 15px;
+	width: 280px;
+	height: 94%;
+	text-align: center;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.news-box p {
+	text-align: left;
+	margin: 20px;
+}
+
+.news-box button {
+	width: 100%;
+	border-radius: 25px;
+	padding: 15px;
+	cursor: pointer;
+	border: none;
+	background-color: #FCAB1E;
+	color: white;
+	font-size: 1.2em;
+}
+
+.news-box button:hover {
+	background-color: #E0425C;
+}
+
+.gallery {
+	padding: 20px 0;
+}
+
+.gallery img {
+	margin: 8px;
+}
+
+.contact {
+	background-color: #10B0BE;
+	padding: 20px 0;
+	text-align: center;
+	color: #4A4C49;
+}
+
+.contact p {
+	font-size: 2em;
+	width: 500px;
+	margin: 0 auto;
+	text-align: left;
+	font-weight: bold;
+}
+
+.contact input[type=text], .contact textarea {
+	padding: 10px 15px;
+	border: 1px #EBEBEB solid;
+	display: block;
+	font-size: 1.5em;
+	margin: 10px auto;
+	width: 450px;
+}
+
+.contact button {
+	border-radius: 25px;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #FCAB1E;
+    color: white;
+    font-size: 1.2em;
+    width: 200px;
+}
+
+.contact button:hover {
+	background-color: #E0425C;
+}
+
+footer {
+	background-color: #454344;
+	color: white;
+	height: 50px;
+	padding: 20px 10%;
+}
+
+footer p {
+	float: left;
+	margin-top: 20px;
+}
+
+.footer-icons {
+	float: right;
+}
